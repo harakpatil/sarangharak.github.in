@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sarang Harak — full-stack web developer portfolio">
+  <title>Sarang Harak | Full-Stack Web Developer</title>
+
+  <!-- Bootstrap for responsive layout and handy utilities -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons for the skill and contact icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home">S<span>H</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section section-space" id="home">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 hero-copy">
+            <div class="eyebrow"><span class="status-dot"></span> MERN Stack Developer</div>
+            <p class="hero-intro">Hi, I'm</p>
+            <h1>Sarang <span>Harak</span></h1>
+            <h2>Full-Stack Web Developer</h2>
+            <p class="hero-description">
+              I build clean, responsive websites and useful web applications.
+              I enjoy turning ideas into simple digital experiences.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-gradient" href="#projects">View My Projects <i class="bi bi-arrow-right"></i></a>
+              <a class="btn btn-outline-custom" href="#contact"><i class="bi bi-send"></i> Let's Connect</a>
+            </div>
+            <p class="availability"><span class="status-dot"></span> Open to new opportunities</p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="code-card">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Sarang Harak"</span>,
+  stack: <span class="code-green">"MERN"</span>,
+  passion: <span class="code-green">"Build & Create"</span>,
+  goal: <span class="code-green">"Keep Learning"</span>
+};</code></pre>
+              </div>
+              <div class="portrait-card">
+               <!-- this is my  profile image -->
+                <div class="portrait-placeholder">
+                  
+                  <img src="sarang.jpg" alt="My Profile Photo">
+                </div>
+              </div>
+              <span class="decor decor-one"></span>
+              <span class="decor decor-two"></span>
+              <p class="handwritten">Code<br> Create<br> Grow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-divider" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">A LITTLE ABOUT ME</span>
+          <h2>Who I Am</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="about-card h-100">
+              <p>
+                I'm a BCA graduate who enjoys learning web development and building
+                practical projects. I'm currently growing my skills in front-end
+                development and the MERN stack, one project at a time.
+              </p>
+              <div class="about-details">
+                <span><i class="bi bi-geo-alt-fill"></i> Nashik, India</span>
+                <a href="mailto:haraksarang74@gmail.com"><i class="bi bi-envelope-fill"></i>haraksarang74@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="fact-list h-100">
+              <div class="fact-item"><span class="fact-icon"><i class="bi bi-mortarboard"></i></span><div><strong>BCA Graduate</strong><small>SPPU · 2026</small></div></div>
+              <div class="fact-item"><span class="fact-icon"><i class="bi bi-code-slash"></i></span><div><strong>Current Focus</strong><small>Full-Stack Web Development</small></div></div>
+              <div class="fact-item"><span class="fact-icon"><i class="bi bi-heart"></i></span><div><strong>Interests</strong><small>Coding, learning and creating</small></div></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <blockquote class="quote-card h-100">
+              <i class="bi bi-quote"></i>
+              <p>The best way to predict the future is to create it.</p>
+              <small>— A reminder to keep building</small>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-divider" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">MY TOOLKIT</span>
+          <h2>Technologies I Work With</h2>
+          <p>Tools I'm learning and using to build better web experiences.</p>
+        </div>
+        <div class="row g-3 skills-grid">
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-filetype-html skill-icon html-icon"></i><h3>HTML</h3><p>Structure</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-filetype-css skill-icon css-icon"></i><h3>CSS</h3><p>Styling</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-filetype-js skill-icon js-icon"></i><h3>JavaScript</h3><p>Interactivity</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-bootstrap-fill skill-icon bootstrap-icon"></i><h3>Bootstrap</h3><p>Responsive UI</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-arrow-repeat skill-icon scroll-icon"></i><h3>ScrollTrigger</h3><p>Scroll animations</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-phone skill-icon react-icon"></i><h3>React</h3><p>UI library</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-boxes skill-icon node-icon"></i><h3>Node.js</h3><p>JavaScript runtime</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-braces skill-icon express-icon"></i><h3>Express.js</h3><p>Web framework</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-database-fill skill-icon mongo-icon"></i><h3>MongoDB</h3><p>Database</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-git skill-icon git-icon"></i><h3>Git</h3><p>Version control</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-github skill-icon github-icon"></i><h3>GitHub</h3><p>Code hosting</p></div></div>
+          <div class="col-6 col-md-4 col-lg-2"><div class="skill-card"><i class="bi bi-window-stack skill-icon scroll-icon"></i><h3>Locomotive Scroll</h3><p>Smooth scrolling</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-divider" id="projects">
+      <div class="container">
+        <div class="section-heading d-flex flex-wrap justify-content-between align-items-end gap-3">
+          <div><span class="section-kicker">SELECTED WORK</span><h2>Some of My Work</h2></div>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">More on GitHub <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="project-card">
+              <div class="project-art portfolio-art"><i class="bi bi-window-desktop"></i><span>PORTFOLIO</span></div>
+              <div class="project-copy"><h3>Personal Portfolio Website</h3><p>A responsive website to introduce myself, share my skills and display my projects.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Portfolio project on GitHub"><i class="bi bi-box-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card">
+              <div class="project-art task-art"><i class="bi bi-kanban"></i><span>TASK MANAGER</span></div>
+              <div class="project-copy"><h3>MERN Task Manager</h3><p>A planned full-stack task app with a clean interface and a database-backed task list.</p><div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div><a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Task manager project on GitHub"><i class="bi bi-box-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-divider" id="contact">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-4">
+            <span class="section-kicker">GET IN TOUCH</span>
+            <h2 class="contact-title">Let's Work Together</h2>
+            <p class="contact-description">Have a project or an opportunity in mind? I'd be happy to hear from you.</p>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1"><a class="contact-card" href="mailto:haraksarang74@gmail.com"><i class="bi bi-envelope"></i><strong>Email</strong><small>Send me a message</small></a></div>
+          <div class="col-6 col-lg-2"><a class="contact-card" href="https://github.com/harakpatil" target="_blank" rel="noreferrer"><i class="bi bi-github"></i><strong>GitHub</strong><small>View my code</small></a></div>
+          <div class="col-6 col-lg-2"><a class="contact-card" href="https://www.linkedin.com/in/sarang-harak-748752274/?isSelfProfile=true" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i><strong>LinkedIn</strong><small>Connect with me</small></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <small>© <span id="currentYear"></span> Sarang Harak. Built with care.</small>
+      <small>Build · Learn · Grow</small>
+    </div>
+  </footer>
+
+  <!-- GSAP + ScrollTrigger: reveal sections as they enter the viewport -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <!-- Bootstrap JavaScript powers the mobile navigation -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
